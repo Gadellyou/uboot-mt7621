@@ -24,7 +24,7 @@ import re
 import sys
 
 # Decodes a Makefile assignment line into key and value (and plus for +=)
-RE_KEY_VALUE = re.compile('(?P<key>\w+) *(?P<plus>[+])?= *(?P<value>.*)$')
+RE_KEY_VALUE = re.compile('(?P<key>\\w+) *(?P<plus>[+])?= *(?P<value>.*)$')
 
 
 def ParseMakefile(fname):
