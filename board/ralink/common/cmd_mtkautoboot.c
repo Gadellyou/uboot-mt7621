@@ -128,6 +128,7 @@ static int do_mtkautoboot(cmd_tbl_t *cmdtp, int flag, int argc,
 	char *const argv[])
 {
 	int i;
+        int MT7621_BUTTON_RESET;
 	char key[16];
 	char val[256];
 	char cmd[32];
